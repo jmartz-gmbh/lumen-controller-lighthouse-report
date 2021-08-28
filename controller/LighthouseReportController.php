@@ -18,7 +18,7 @@ class LighthouseReportController extends Controller
         $reports = $connection->get();
 
         $this->addData('reports',$reports);
-        $this->addMessage('success','All your Shops.');
+        $this->addMessage('success','All your Reports.');
 
         return $this->getResponse();
     }
