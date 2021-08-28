@@ -1,0 +1,26 @@
+{
+    "name": "jmartz-gmbh/lumen-controller-lighthouse-report",
+    "description": "Php Lumen Ligthouse Report Controller",
+    "require": {
+        "php": "^8.0",
+        "illuminate/http": "^8.0",
+        "illuminate/support": "^8.0",
+        "illuminate/database": "^8.4.0",
+        "jonathan-martz/lumen-controller": "dev-master",
+        "jmartz-gmbh/lumen-migration-shop": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "controller/",
+            "providers/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jonathan Martz",
+            "email": "composer@jmartz.de",
+            "homepage": "https://www.jmartz.de",
+            "role": "Developer"
+        }
+    ]
+}
