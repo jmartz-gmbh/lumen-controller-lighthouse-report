@@ -7,7 +7,7 @@
         "illuminate/support": "^8.0",
         "illuminate/database": "^8.4.0",
         "jonathan-martz/lumen-controller": "dev-master",
-        "jmartz-gmbh/lumen-migration-lighthoue-report": "dev-master"
+        "jmartz-gmbh/lumen-migration-lighthouse-report": "dev-master"
     },
     "autoload": {
         "classmap": [
