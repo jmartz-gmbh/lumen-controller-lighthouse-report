@@ -28,7 +28,7 @@ class LighthouseReportController extends Controller
      * @return Response
      */
     public function id(Request $request, int $id){
-        $shop = DB::table('reports')
+        $report = DB::table('reports')
             ->where('id','=',$id);
 
         $count = $report->count();
